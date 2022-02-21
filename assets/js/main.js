@@ -1,4 +1,3 @@
-
 let stringA = document.getElementById("stringA")
 let stringB = document.getElementById("stringB")
 let selection = document.getElementById("befor");
@@ -27,10 +26,4 @@ function cutString() {
 
     document.getElementById("vorne").innerHTML = stringBefor.trim();
     document.getElementById("hinten").innerHTML = stringAfter.trim();
-
 }
-
-
-
-
-
