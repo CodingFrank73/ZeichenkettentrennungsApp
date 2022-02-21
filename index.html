@@ -19,25 +19,29 @@
 
             <label for="stringB">Zeichenkette für die Trennungsposition:</label>
             <input type="text" name="stringB" id="stringB">
-
-            <input type="radio" name="selection" id="befor" checked>
-            <label for="selection">davor trennen</label>
-
-            <input type="radio" name="selection" id="after">
-            <label for="selection">danach trennen</label>
+            <div class="radio">
+                <input type="radio" name="selection" id="befor" checked>
+                <label for="selection">davor trennen</label>
+            </div>
+            <div class="radio">
+                <input type="radio" name="selection" id="after">
+                <label for="selection">danach trennen</label>
+            </div>
 
             <button onclick="cutString()">Trennen</button>
 
             <h2>Ausgabe</h2>
-            <div>
-                <h3>Vorderer Teil</h3>
-                <div id="vorne"></div>
+            <div class="ausgabe">
+                <div>
+                    <h3>Vorderer Teil</h3>
+                    <div id="vorne"></div>
+                </div>
+                <div>
+                    <h3>Hinterer Teil</h3>
+                    <div id="hinten"></div>
+                </div>
             </div>
 
-            <div>
-                <h3>Hinterer Teil</h3>
-                <div id="hinten"></div>
-            </div>
 
 
         </form>

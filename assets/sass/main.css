@@ -7,4 +7,24 @@
 form {
   display: flex;
   flex-direction: column;
+  margin: 10%;
+}
+form h1 {
+  margin-bottom: 20px;
+}
+form #stringA, form #stringB {
+  width: 40%;
+  margin-bottom: 20px;
+}
+form .radio {
+  display: flex;
+  margin-bottom: 5px;
+}
+form button {
+  width: 20%;
+  margin: 20px 0;
+}
+form .ausgabe {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */

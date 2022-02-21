@@ -9,8 +9,6 @@ function cutString() {
     let stringBefor = "";
     let stringAfter = "";
 
-    console.log(posStringB);
-
     if (posStringB >= 0) {
 
         if (selection.checked == true) {
